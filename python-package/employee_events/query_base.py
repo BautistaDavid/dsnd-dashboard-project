@@ -1,4 +1,4 @@
-from sql_execution import QueryMixin
+from .sql_execution import QueryMixin
 import pandas as pd
 
 class QueryBase(QueryMixin):
